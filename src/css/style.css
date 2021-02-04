@@ -116,9 +116,11 @@ p {
 .service-items {
   display: inline-grid;
   text-align: center;
+  margin: auto;
 }
 
 .service-items p {
+  margin: auto;
   margin: .3rem;
 }
 
@@ -223,8 +225,24 @@ h3 {
     width: calc(100% - 80px);
   }
 
+  .service-area h2 {
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+  }
+
   .services {
-    grid-template-columns: 1fr;
+    display: inline-block;
+  }
+
+  .services h3 {
+    padding-bottom: 1rem;
+  }
+
+  .services h3,
+  p {
+    text-align: center;
+    width: auto;
+    width: 25rem;
   }
 
   .contact-area {
