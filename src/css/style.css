@@ -207,6 +207,29 @@ h3 {
 }
 
 @media (max-width: 450px) {
+  .nav-navigation {
+    display: none;
+    width: 100%;
+  }
+
+  .logo {
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .logo a {
+    display: grid;
+    padding-bottom: 1rem;
+  }
+
+  .logo img {
+    width: 200px;
+    margin: auto;
+    padding-bottom: 1rem;
+  }
 
   .content {
     margin-bottom: 1.5rem;
@@ -242,7 +265,6 @@ h3 {
   p {
     text-align: center;
     width: auto;
-    width: 25rem;
   }
 
   .contact-area {
