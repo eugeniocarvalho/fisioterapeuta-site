@@ -267,8 +267,18 @@ h3 {
     width: auto;
   }
 
+  .contats h2 {
+    font-size: 18pt;
+    margin: 0;
+    padding: 2rem 0;
+  }
+
   .contact-area {
     grid-template-columns: 1fr;
+  }
+
+  .contact-area h2 {
+    font-size: 16pt;
   }
 
 }
